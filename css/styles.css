@@ -127,7 +127,7 @@ a {
 .navigation-item-link.current {
   position: relative;
 }
-.navigation-item-link.current::before {
+.navigation-item-link.current::after {
   content: "";
   position: absolute;
   left: 0;
@@ -270,6 +270,7 @@ a {
 }
 .social-links-list-item {
   height: 40px;
+  width: 40px;
 }
 .section-team-list {
   display: flex;
